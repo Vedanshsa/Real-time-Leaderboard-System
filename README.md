@@ -84,12 +84,6 @@ java loadtest/LoadTest.java http://localhost:8080 100 10000 7000 3000   # load t
 
 The load test registers players, fires thousands of simultaneous requests and then verifies **every** score, rank and daily total through the public API. It exits with `PASS` only if nothing failed and all values match.
 
-## 📚 Documentation
-
-| Guide | What's inside |
-|---|---|
-| 📘 [API guide](docs/API.md) | Every endpoint with copy-paste examples |
-| 🧭 [Design notes](docs/DESIGN.md) | How the boards are stored and updated, and the trade-offs |
 
 ## 🗺️ What's next
 
